@@ -1,0 +1,45 @@
+{
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.9.1"
+  },
+  "dependencies": {
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2"
+  },
+  "ava": {
+    "files": [
+      "tests/*.js"
+    ],
+    "failFast": true,
+    "serial": true,
+    "tap": true,
+    "verbose": true,
+    "require": [
+      "babel-core/register"
+    ]
+  },
+  "name": "zn-api-tests",
+  "description": "* error responses needs to reconize when debug mode is ON/OF if on it will contain a `systemMessage` prop where when OFF it don't",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:evert0n/zn-api-tests.git"
+  },
+  "keywords": [
+    "api",
+    "tests"
+  ],
+  "author": "Everton Yoshitani",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/evert0n/zn-api-tests/issues"
+  },
+  "homepage": "https://github.com/evert0n/zn-api-tests"
+}
