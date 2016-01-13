@@ -1,5 +1,5 @@
 /**
- * Test all endpoints with error 401 invalid_request
+ * Test all endpoints with error 401 invalid_grant
  *
  * 1. the invalid access token must setup in the API exception
  * otherwise this test gets rate limited.

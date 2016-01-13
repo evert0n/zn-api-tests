@@ -1,5 +1,5 @@
 /**
- * Test all endpoints with error 400 invalid_request
+ * Test all endpoints with error 404 not_found
  *
  *
  */
